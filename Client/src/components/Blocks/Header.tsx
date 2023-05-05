@@ -1,5 +1,6 @@
 import React from 'react'
 import img from "../../assets/img.png"
+import {AiOutlineShoppingCart} from "react-icons/ai"
 
 const Header = () => {
   return (
@@ -17,7 +18,12 @@ const Header = () => {
               </div>
 
               <div className='flex items-center'>
-                  <button className='outline-none h-10 w-28 flex justify-center items-center bg-green text-white cursor-pointerrounded'>Sign in</button>
+                  <button className='outline-none h-10 w-28 flex justify-center items-center bg-green text-white cursor-pointerrounded'>
+                      Sign in
+                  </button>
+                  <div className='items-center cursor-pointer relative ml-8 text-2xl'>
+                      <AiOutlineShoppingCart />
+                  </div>
               </div>
           </div>
     </div>
