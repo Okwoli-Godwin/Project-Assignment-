@@ -15,6 +15,10 @@ const Header = () => {
                   <div className='ml-11 text-green cursor-pointer font-medium'>Blog</div>
                   <div className='ml-11 text-green cursor-pointer font-medium'>Contact us</div>
               </div>
+
+              <div className='flex items-center'>
+                  <button className='outline-none h-10 w-28 flex justify-center items-center bg-green text-white cursor-pointerrounded'>Sign in</button>
+              </div>
           </div>
     </div>
   )
