@@ -11,7 +11,8 @@ export default {
       'herotext': '#00214f',
       'black': '#000',
       'heroparagraph': '#232333',
-      'herobutton': '#3CD19C'
+      'herobutton': '#3CD19C',
+      'green': '#03993f'
     },
     extend: {},
   },
